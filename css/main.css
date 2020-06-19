@@ -100,6 +100,9 @@ textarea {
 
   /***HEADER***/
 
+  header{
+    padding: 15px 0px;
+  }
 
   header img{
     width: 100%
@@ -110,6 +113,7 @@ textarea {
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    width: 60%;
   }
 
   nav ul{
@@ -117,6 +121,7 @@ textarea {
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    width: 60%;
   }
 
   header .content-wrapper{
@@ -124,17 +129,18 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width: 89%;
   }
 
   .header-divider{
-
+    width: 100%;
   }
 
   /***MAIN HOMEPAGE --- MOBILE***/
 
 
   .hero img{
-   width: 100%;
+    width: 100%;
   }
   
   .hero-area{
@@ -149,10 +155,11 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 50px 0px;
   }
 
   .form-description{
-
+    width: 89%;
   }
 
   .form{
@@ -164,6 +171,8 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width: 89%;
+    margin: 50px 0px;
   }
 
   .features-items{
@@ -171,6 +180,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 35px 0px;
   }
 
   .features-item-description{
@@ -184,8 +194,12 @@ textarea {
     flex-flow: row wrap;
   }
 
-  main .content-wrapper{
+  .reviews img{
+    width: 100%;
+  }
 
+  main .content-wrapper{
+    width: 89%;
   }
 
   /***ABOUT --- MOBILE***/
@@ -236,6 +250,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width: 89%;
   }
 
   .faq-content{
@@ -257,7 +272,8 @@ textarea {
   }
 
   footer .content-wrapper{
-
+    width: 55%;
+    margin: 50px 0px;
   }
 
   .footer-content{
